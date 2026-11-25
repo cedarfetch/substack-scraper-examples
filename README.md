@@ -188,6 +188,10 @@ Apify's free plan includes monthly platform credit that you can use to try the A
 - The sync endpoint used by `run.sh` answers 408 after 300 seconds. For large archives use the Python or Node examples, which wait for the run to finish.
 - Republishing other people's posts usually needs their permission. You are responsible for how you use the data, for respecting copyright and each newsletter's terms.
 
+## Guide
+
+Step-by-step write-up of the underlying endpoints, their limits and a do-it-yourself version: [How to pull a Substack newsletter's posts as Markdown](https://dev.to/cedarfetch/how-to-pull-a-substack-newsletters-posts-as-markdown-5c83).
+
 ## Do it yourself (no paid tool)
 
 Each Substack newsletter serves a few public endpoints to every visitor's browser. The Actor reads these:
